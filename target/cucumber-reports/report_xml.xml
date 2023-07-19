@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="17.941" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Login into Amazon webpage" name="Login into amazon website with valid credentials" time="17.657">
+<system-out><![CDATA[
+Given I open the Amazon webpage.............................................passed
+When I click on signin button on web page...................................passed
+And I enter email into sigin field..........................................passed
+And I click on continue button..............................................passed
+And I enter password into sigin field.......................................passed
+Then I click on signin button...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
