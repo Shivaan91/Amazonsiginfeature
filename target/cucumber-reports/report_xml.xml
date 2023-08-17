@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="17.941" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="Login into Amazon webpage" name="Login into amazon website with valid credentials" time="17.657">
+<testsuite name="Cucumber" time="96.395" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="validate if the user is able to add an item to the cart and Order Information would be displayed, re-confirm the product details, subtotal, tax and order total." name="Validate if the user is able to add an item to the cart" time="96.121">
 <system-out><![CDATA[
-Given I open the Amazon webpage.............................................passed
-When I click on signin button on web page...................................passed
-And I enter email into sigin field..........................................passed
-And I click on continue button..............................................passed
-And I enter password into sigin field.......................................passed
-Then I click on signin button...............................................passed
+Given user navigates to the baskinrobbins website...........................passed
+When user click on order online in the webpage to select item...............passed
+And user enter valid store locator address..................................passed
+And user select order from list of stores...................................passed
+Then user navigate to list of availble products on the page.................passed
+When user click on cakes and pies from the list.............................passed
 ]]></system-out>
 </testcase>
 </testsuite>

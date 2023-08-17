@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon login page">
+	<listeners>
+		<listener class-name="org.tillster.chowking.ExtentReporterListner.ExtentReportList"/>
+	</listeners>
+	<test name="Amazon Login Test">
+		<classes>
+			<class name="org.tillster.chowking.stepdefinations.Mainmethod"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>TestNG:  Loginpage</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Loginpage</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 21 22:28:09 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>25 seconds (25004 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.tillster.chowking.runner.RunnerCucumber.runScenario()'><b>runScenario</b><br>Test class: org.tillster.chowking.runner.RunnerCucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login into amazon website with valid credentials", "Login into Amazon webpage"<br/>
+<a href="#Output-82065756" onClick='toggleBox("Output-82065756", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-82065756" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-82065756">
+PASS : Assertion done on : Amazon.in text displayed<br/>
+PASS : Assertion done on : visibile Email or mobile phone number<br/>
+PASS : Assertion done on : SignIn page displayed<br/>
+PASS : Assertion done on : valid email Entered<br/>
+PASS : Assertion done on : clicking continue button<br/>
+PASS : Assertion done on : Password field is visible<br/>
+PASS : Assertion done on : Entering valid password<br/>
+PASS : Assertion done on : click signin button<br/>
+PASS : Assertion done on : signout successfully<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>org.tillster.chowking.runner.RunnerCucumber@6f15d60e</td></tr>
+</table><p>
+</body>
+</html>

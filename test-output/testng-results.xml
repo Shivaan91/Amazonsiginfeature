@@ -2,46 +2,46 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-19T22:38:59 IST" name="Default suite" finished-at="2023-07-19T22:39:19 IST" duration-ms="19868">
+  <suite started-at="2023-08-17T12:51:11 IST" name="Default suite" finished-at="2023-08-17T12:52:51 IST" duration-ms="100343">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.tillster.chowking.runner.RunnerCucumber@338fc1d8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.baskinrobbins.runner.RunnerCucumber@6c67e137]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-07-19T22:38:59 IST" name="Default test" finished-at="2023-07-19T22:39:19 IST" duration-ms="19868">
-      <class name="org.tillster.chowking.runner.RunnerCucumber">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.tillster.chowking.runner.RunnerCucumber@338fc1d8]" started-at="2023-07-19T22:38:59 IST" name="setUpClass" finished-at="2023-07-19T22:39:00 IST" duration-ms="1175" status="PASS">
+    <test started-at="2023-08-17T12:51:11 IST" name="Default test" finished-at="2023-08-17T12:52:51 IST" duration-ms="100343">
+      <class name="com.baskinrobbins.runner.RunnerCucumber">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.baskinrobbins.runner.RunnerCucumber@6c67e137]" started-at="2023-08-17T12:51:11 IST" name="setUpClass" finished-at="2023-08-17T12:51:12 IST" duration-ms="1381" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@18cf5c52]]>
+                <![CDATA[org.testng.TestRunner@5dd227b7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.tillster.chowking.runner.RunnerCucumber@338fc1d8]" started-at="2023-07-19T22:39:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-19T22:39:18 IST" duration-ms="17761" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.baskinrobbins.runner.RunnerCucumber@6c67e137]" started-at="2023-08-17T12:51:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-17T12:52:48 IST" duration-ms="96232" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Login into amazon website with valid credentials"]]>
+                <![CDATA["Validate if the user is able to add an item to the cart"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login into Amazon webpage"]]>
+                <![CDATA["validate if the user is able to add an item to the cart and Order Information would be displayed, re-confirm the product details, subtotal, tax and order total."]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.tillster.chowking.runner.RunnerCucumber@338fc1d8]" started-at="2023-07-19T22:39:18 IST" name="tearDownClass" finished-at="2023-07-19T22:39:19 IST" duration-ms="858" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.baskinrobbins.runner.RunnerCucumber@6c67e137]" started-at="2023-08-17T12:52:48 IST" name="tearDownClass" finished-at="2023-08-17T12:52:51 IST" duration-ms="2660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- org.tillster.chowking.runner.RunnerCucumber -->
+      </class> <!-- com.baskinrobbins.runner.RunnerCucumber -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
